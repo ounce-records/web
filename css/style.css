@@ -405,6 +405,12 @@ html, body {
   top: -9999px;
   left: -9999px; }
 
+@media screen and (min-width: 816px) {
+  .hide-for-desktop {
+    position: absolute;
+    top: -9999px;
+    left: -9999px; } }
+
 /* ------------ */
 /* Page level */
 /* ------------ */
@@ -492,6 +498,12 @@ html, body {
           border-bottom: 3px solid #fff; }
         .header .header-inner-wrapper .header-inner .navigation li.active {
           border-bottom: 3px solid #fff; }
+      .header .header-inner-wrapper .header-inner .menu-link {
+        float: right; }
+        .header .header-inner-wrapper .header-inner .menu-link a {
+          text-decoration: none;
+          color: #fff;
+          border-bottom: 3px double #fff; }
 
 /* ------------ */
 /* Content */
@@ -590,6 +602,10 @@ p {
 
 .navigation li {
   font-size: 1.4em; }
+
+.menu-link {
+  font-size: 1.6em;
+  line-height: 0.65em; }
 
 .top-quote {
   margin-top: 0em;
