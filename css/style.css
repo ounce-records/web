@@ -512,7 +512,7 @@ html, body {
     @media screen and (min-width: 600px) {
       .content .thumb-col {
         width: 35%;
-        padding-right: 2em; } }
+        padding-right: 1.5em; } }
     .content .thumb-col img {
       max-width: 100%;
       height: auto;
