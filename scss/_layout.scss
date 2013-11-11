@@ -58,6 +58,7 @@ html, body{
 		padding-bottom: 29%;
 		min-height: 0;
 	}
+	border-bottom: 1px solid #fff;// NOTE: addition
 	img.header-img{
 		position: absolute;
 		top: 0;
@@ -173,6 +174,13 @@ html, body{
 		img{
 			max-width: 100%;
 			height: auto;
+			// NOTE: addition
+			padding: $gutters;
+			//border: 1px solid #333;
+			background-color: rgba(0,0,0,0.05);
+			-moz-box-shadow:    1px 1px 4px -1px #000;
+			-webkit-box-shadow: 1px 1px 4px -1px #000;
+			box-shadow:         1px 1px 4px -1px #000;
 		}
 	}
 	.copy-col{
@@ -186,28 +194,58 @@ html, body{
 	}
 }
 
+/* ------------ */
+/* Footer */
+/* ------------ */
 
 footer{
+	border-top: 1px solid #fff;// NOTE: addition
 	padding: 0.5em;
-	text-align: center;
 	color: #aaa;
+		font-size: 1.4em;
+		//text-align: center;
+	@media screen and (min-width: $desktop-min){
+		font-size: 1em;
+		text-align: center;
+	}
 	nav{
 		ul{
 			margin: 0;
 			padding: 0;
 			li{
+					//padding: $gutters/2 0;
+					line-height: 1.6em;
+					display: block;
+					@media screen and (min-width: $desktop-min){
+						display: inline-block;
+					}
 				&:after{
-					content: ' /';
+					content: '';
+					@media screen and (min-width: $desktop-min){
+						content: ' /';
+					}
 				}
-				display: inline-block;
+				&:before{
+					content: '';
+					@media screen and (min-width: $desktop-min){
+						content: '';
+					}
+				}
 				a{
 					text-decoration: none;
 					color: #aaa;
 				}
 			}
+			li.active{
+				a{
+					text-decoration: underline;
+				}
+			}
 			li.last{
 				&:after{
-					content: '';
+					@media screen and (min-width: $desktop-min){
+						content: '';
+					}
 				}
 			}
 		}
