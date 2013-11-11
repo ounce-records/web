@@ -1,0 +1,13 @@
+
+.page-wrapper{
+	background-position: 0 150px;
+	background-repeat: repeat-x;
+}
+
+body.rehearsal{
+	background-color: #252525;
+	.page-wrapper{
+		background-color: #73141f;
+		background-image: url('../img/rehearsal/Rehearsal-page-background-seamless-fade-full-res.jpg');
+	}
+}

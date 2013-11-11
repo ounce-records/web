@@ -1,0 +1,55 @@
+body{
+   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   font-weight: 300;
+}
+
+body{
+		font-size: 0.9em;
+	@media screen and (min-width: $tablet-min){
+		font-size: 1em;
+	}
+	@media screen and (min-width: $desktop-min){
+		font-size: 1.1em;
+	}
+	*{
+		// -webkit-transition:   font-size 0.3s ease;
+		// -moz-transition:      font-size 0.3s ease;
+		// -o-transition:        font-size 0.3s ease;
+		// transition:           font-size 0.3s ease;
+	}
+}
+
+p{
+	font-size: 0.95em;
+	line-height: 1.6em;
+	font-weight: 200;
+}
+
+.navigation li{
+	font-size: 1.3em;
+}
+
+.top-quote{
+	margin-top: 0em;
+	font-size: 1.3em;
+	line-height: 1.3em;
+	font-weight: 500;
+	font-style: italic;
+}
+
+section.details{
+	h2{
+		text-transform: uppercase;
+		font-size: 1.1em;
+		//margin-top: 0.5em;
+		margin-bottom: 0.5em;
+	}
+	p{
+		margin-bottom: 0em;
+	}
+}
+
+footer{
+	span.copy{
+	}
+}
