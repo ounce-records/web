@@ -4,9 +4,25 @@
 	background-repeat: repeat-x;
 }
 
+body.studio{
+	background-color: #252525;
+	.page-wrapper{
+		color: #000;
+		a{
+			color: #000;
+		}
+		background-color: #d5d5d5;
+		background-image: url('../img/studio/studio-page-background-seamless-fade-full-res.jpg');
+	}
+}
+
 body.rehearsal{
 	background-color: #252525;
 	.page-wrapper{
+		color: #fff;
+		a{
+			color: #000;
+		}
 		background-color: #73141f;
 		background-image: url('../img/rehearsal/Rehearsal-page-background-seamless-fade-full-res.jpg');
 	}

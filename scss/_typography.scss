@@ -9,7 +9,7 @@ body{
 		font-size: 1em;
 	}
 	@media screen and (min-width: $desktop-min){
-		font-size: 1.1em;
+		font-size: 1em;
 	}
 	*{
 		// -webkit-transition:   font-size 0.3s ease;
@@ -26,7 +26,7 @@ p{
 }
 
 .navigation li{
-	font-size: 1.3em;
+	font-size: 1.4em;
 }
 
 .top-quote{
@@ -40,8 +40,11 @@ p{
 section.details{
 	h2{
 		text-transform: uppercase;
+		span.lower{
+			text-transform: none;
+		}
 		font-size: 1.1em;
-		//margin-top: 0.5em;
+		margin-top: 1.5em;
 		margin-bottom: 0.5em;
 	}
 	p{
