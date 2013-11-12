@@ -126,7 +126,11 @@ body.home{
 		left: 0;
 		width: 100%;
 		min-width: 0;
-		//border-bottom: 1px solid #fff;
+	}
+
+	img.header-img.match-height{
+		width: auto;
+		height: 100%;
 	}
 
 }
