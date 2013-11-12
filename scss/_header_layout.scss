@@ -1,0 +1,134 @@
+/* ------------ */
+/* Header */
+/* ------------ */
+
+/* Header Image */
+
+.header{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+		padding-bottom: 58%;
+		//min-height: 170px;
+	@media screen and (min-width: $tablet-min){
+		padding-bottom: 29%;
+		min-height: 0;
+	}
+	border-bottom: 1px solid #fff;// NOTE: addition
+	img.header-img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 200%;
+		left: -50%;
+		//min-width: 600px;
+		@media screen and (min-width: $tablet-min){
+			width: 100%;
+			left: -0%;
+		}
+		height: auto;
+		overflow: hidden;
+	}
+	.header-inner-wrapper{
+		width: 100%;
+		max-width: $max-page-width;
+		margin: 0 auto;
+		position: relative;
+		.header-inner{
+			width: 100%;
+			position: absolute;
+			padding: $gutters;
+			padding-left: $gutters;
+			padding-right: $gutters;
+			.logo{
+				float: left;
+				img{
+					-webkit-transition:   all 0.3s ease;
+					-moz-transition:      all 0.3s ease;
+					-o-transition:        all 0.3s ease;
+					transition:           all 0.3s ease;
+						width: 182px;
+						//width: 222px;
+					@media screen and (min-width: $tablet-min){
+						width: 222px;
+					}
+					@media screen and (min-width: $desktop-min){
+						width: 262px;
+					}
+				}
+			}
+			.navigation{
+					position: absolute;
+				    top: -9999px;
+				    left: -9999px;
+			    @media screen and (min-width: $desktop-min){
+					position: relative;
+				    top: 0;
+				    left: 0;
+				}
+				float: right;
+					margin-top: 18px;
+				@media screen and (min-width: $desktop-min){
+					margin-top: 24px;
+				}
+				ul{
+					margin: 0;
+				}
+				li{
+					margin: 0 0.5em 0 0.5em;
+					display: inline-block;
+					a{
+						color: #fff;
+						text-decoration: none;
+					}
+				}
+				li.first{
+					margin: 0 0.5em 0 0em;
+				}
+				li.last{
+					margin: 0 0em 0 0.5em;
+				}
+				li:hover{
+					border-bottom: 3px solid #fff;
+				}
+				li.active{
+					border-bottom: 3px solid #fff;
+					// -moz-box-shadow:    0px 2px 1px 0px #000;
+					// -webkit-box-shadow: 0px 2px 1px 0px #000;
+					// box-shadow:         0px 2px 1px 0px #000;
+				}
+			}
+			.menu-link{
+				float: right;
+				a{
+					text-decoration: none;
+					color: #fff;
+					border-bottom: 3px double #fff;
+				}
+			}
+		}
+	}
+}
+
+body.home{
+
+.header{
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+	padding-bottom: 0;
+	height: 100%;
+	border-bottom: 0px solid #fff;
+
+	img.header-img{
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		min-width: 0;
+		//border-bottom: 1px solid #fff;
+	}
+
+}
+
+}

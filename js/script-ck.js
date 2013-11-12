@@ -1,0 +1,1 @@
+var ounce_js={};ounce_js.resize_homepage_img=function(){function e(){$header_container=$("body.home .full-height-header-wrapper");console.log($header_container)}return{init:e}}();$(document).ready(function(){ounce_js.resize_homepage_img.init()});

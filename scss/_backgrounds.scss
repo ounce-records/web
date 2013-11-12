@@ -4,8 +4,11 @@
 	background-repeat: repeat-x;
 }
 
-body.studio{
+body{
 	background-color: #252525;
+}
+
+body.studio{
 	.page-wrapper{
 		color: #000;
 		a{
@@ -17,7 +20,6 @@ body.studio{
 }
 
 body.rehearsal{
-	background-color: #252525;
 	.page-wrapper{
 		color: #fff;
 		a{

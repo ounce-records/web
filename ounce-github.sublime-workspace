@@ -83,7 +83,7 @@
 			"file": "rehearsal.html",
 			"settings":
 			{
-				"buffer_size": 3092,
+				"buffer_size": 3718,
 				"line_ending": "Unix"
 			}
 		},
@@ -91,7 +91,7 @@
 			"file": "studio.html",
 			"settings":
 			{
-				"buffer_size": 5582,
+				"buffer_size": 5721,
 				"line_ending": "Unix"
 			}
 		},
@@ -99,7 +99,7 @@
 			"file": "scss/_layout.scss",
 			"settings":
 			{
-				"buffer_size": 4483,
+				"buffer_size": 4779,
 				"line_ending": "Unix"
 			}
 		},
@@ -115,7 +115,7 @@
 			"file": "scss/_typography.scss",
 			"settings":
 			{
-				"buffer_size": 955,
+				"buffer_size": 1011,
 				"line_ending": "Unix"
 			}
 		}
@@ -466,7 +466,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -474,15 +474,15 @@
 					"file": "rehearsal.html",
 					"settings":
 					{
-						"buffer_size": 3092,
+						"buffer_size": 3718,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2722,
-								2732
+								3373,
+								3373
 							]
 						],
 						"settings":
@@ -535,7 +535,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1580.0,
+						"translation.y": 1811.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -545,15 +545,15 @@
 					"file": "studio.html",
 					"settings":
 					{
-						"buffer_size": 5582,
+						"buffer_size": 5721,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5496,
-								5501
+								5367,
+								5262
 							]
 						],
 						"settings":
@@ -606,7 +606,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2966.0,
+						"translation.y": 3029.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -616,15 +616,15 @@
 					"file": "scss/_layout.scss",
 					"settings":
 					{
-						"buffer_size": 4483,
+						"buffer_size": 4779,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3060,
-								3060
+								2828,
+								2828
 							]
 						],
 						"settings":
@@ -677,7 +677,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 3366.0,
+						"translation.y": 2788.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -744,7 +744,8 @@
 								"bh_single_quote_open",
 								"bh_single_quote_close"
 							],
-							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -757,15 +758,15 @@
 					"file": "scss/_typography.scss",
 					"settings":
 					{
-						"buffer_size": 955,
+						"buffer_size": 1011,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								866,
-								866
+								673,
+								673
 							]
 						],
 						"settings":
@@ -818,7 +819,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 572.0,
+						"translation.y": 124.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

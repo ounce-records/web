@@ -4,6 +4,10 @@
 
 @import '_backgrounds';
 
+// Layout
 @import '_layout';
+	@import '_header_layout';
+	@import'_content_layout';
+	@import'_footer_layout';
 
 @import '_typography';

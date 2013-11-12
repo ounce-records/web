@@ -1,0 +1,60 @@
+/* ------------ */
+/* Footer */
+/* ------------ */
+
+footer{
+	position: relative;
+	z-index: 10;
+	// background-color: #252525;
+	border-top: 1px solid #fff;// NOTE: addition
+	padding: 0.5em;
+	color: #aaa;
+		font-size: 1.4em;
+		//text-align: center;
+	@media screen and (min-width: $desktop-min){
+		font-size: 1em;
+		text-align: center;
+	}
+	nav{
+		ul{
+			margin: 0;
+			padding: 0;
+			li{
+					//padding: $gutters/2 0;
+					line-height: 1.6em;
+					display: block;
+					@media screen and (min-width: $desktop-min){
+						display: inline-block;
+					}
+				&:after{
+					content: '';
+					@media screen and (min-width: $desktop-min){
+						content: ' /';
+					}
+				}
+				&:before{
+					content: '';
+					@media screen and (min-width: $desktop-min){
+						content: '';
+					}
+				}
+				a{
+					text-decoration: none;
+					color: #aaa;
+				}
+			}
+			li.active{
+				a{
+					text-decoration: underline;
+				}
+			}
+			li.last{
+				&:after{
+					@media screen and (min-width: $desktop-min){
+						content: '';
+					}
+				}
+			}
+		}
+	}
+}
