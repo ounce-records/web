@@ -33,12 +33,12 @@ ounce_js.resize_homepage_img = (function(){
 
 $(document).ready(function(){
 	ounce_js.resize_homepage_img.init();
+	$('.header-img').load(function() {
+	  	ounce_js.resize_homepage_img.init();
+	});
 })
 
 $(window).resize(function() {
 	ounce_js.resize_homepage_img.init();
 });
 
-$('.header-img').load(function() {
-  	ounce_js.resize_homepage_img.init();
-});
