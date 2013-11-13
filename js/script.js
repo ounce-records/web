@@ -33,7 +33,12 @@ ounce_js.resize_homepage_img = (function(){
 })();
 
 ounce_js.parallax = (function(){
-
+	function position_image(){
+		
+	}
+	return {
+		position_image: position_image
+	};
 })();
 
 ounce_js.gallery = (function(){
@@ -52,3 +57,6 @@ $(window).resize(function() {
 	ounce_js.resize_homepage_img.init();
 });
 
+$(window).scroll(function(){
+  ounce_js.parallax;
+});
