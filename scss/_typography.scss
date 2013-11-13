@@ -42,6 +42,13 @@ p{
 	font-style: italic;
 }
 
+body.booking{
+	.top-quote{
+		font-style: normal;
+		font-weight: 600;
+	}
+}
+
 section.details{
 	h2{
 		text-transform: uppercase;

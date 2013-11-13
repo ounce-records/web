@@ -8,7 +8,7 @@ body{
 	background-color: #252525;
 }
 
-body.studio{
+body.body-studio, body.body-booking{
 	.page-wrapper{
 		color: #000;
 		a{
@@ -19,7 +19,7 @@ body.studio{
 	}
 }
 
-body.rehearsal{
+body.body-rehearsal, body.body-gallery{
 	.page-wrapper{
 		color: #fff;
 		a{

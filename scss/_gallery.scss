@@ -1,0 +1,75 @@
+.gallery{
+	//padding: 1em 1em;
+
+	-webkit-transition:   all 0.3s ease;
+	-moz-transition:      all 0.3s ease;
+	-o-transition:        all 0.3s ease;
+	transition:           all 0.3s ease;
+
+
+		margin-top: -0px;
+	@media screen and (min-width: $tablet-min){
+		margin-top: -50px;
+	}
+	@media screen and (min-width: 700px){
+		margin-top: -60px;
+	}
+	@media screen and (min-width: $desktop-min){
+		margin-top: -70px;
+	}
+	@media screen and (min-width: 1000px){
+		margin-top: -90px;
+	}
+	@media screen and (min-width: 1200px){
+		margin-top: -170px;
+	}
+
+	.gallery-featured{
+		left: 0;
+		overflow: visible;
+		position: relative;
+		z-index: 100;
+		background-color: #252525;
+		-moz-box-shadow:    1px 1px 4px -1px #000;
+		-webkit-box-shadow: 1px 1px 4px -1px #000;
+		box-shadow:         1px 1px 4px -1px #000;
+		margin-bottom: 2em;
+
+		.image-wrapper{
+			position: relative;
+			border: 1px solid #000;
+			width: 100%;
+			padding-bottom: 66%;
+			overflow: hidden;
+			img{
+				width: 100%;
+				position: absolute;
+			}
+		}
+	}
+	.gallery-thumbs{
+		-moz-box-shadow:    1px 1px 4px -1px #000;
+		-webkit-box-shadow: 1px 1px 4px -1px #000;
+		box-shadow:         1px 1px 4px -1px #000;
+
+		margin-bottom: 1em;
+
+		.thumb{
+			float: left;
+			
+			display: block;
+				width: 100%;
+			@media screen and (min-width: $tablet-min){
+				width: 50%;
+			}
+			@media screen and (min-width: $desktop-min){
+				width: 25%;
+			}
+			img{
+				width: 100%;
+				height: auto;
+				display: block;
+			}
+		}
+	}
+}

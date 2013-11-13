@@ -14,29 +14,39 @@ ounce_js.resize_homepage_img = (function(){
 			var image_width = $image.outerWidth(true);
 			var image_aspect_ratio = image_height/image_width;
 
+			var left_pos;
+
 			if(container_aspect_ratio>image_aspect_ratio){
 				$image.addClass('match-height');
-				var left_pos = (container_width-image_width)/2;
+				left_pos = (container_width-image_width)/2;
 				$image.css('left', left_pos+'px');
 			}else{
 				$image.removeClass('match-height');
-				var left_pos = 0;
+				left_pos = 0;
 				$image.css('left', left_pos+'px');
 			}
 		}
 	}
 	return {
 		init: init
-	}
+	};
+})();
+
+ounce_js.parallax = (function(){
+
+})();
+
+ounce_js.gallery = (function(){
+	
 })();
 
 
 $(document).ready(function(){
 	ounce_js.resize_homepage_img.init();
 	$('.header-img').load(function() {
-	  	ounce_js.resize_homepage_img.init();
+		ounce_js.resize_homepage_img.init();
 	});
-})
+});
 
 $(window).resize(function() {
 	ounce_js.resize_homepage_img.init();
