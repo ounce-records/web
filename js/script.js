@@ -3,7 +3,6 @@ var ounce_js = {};
 ounce_js.resize_homepage_img = (function(){
 	function init(){
 		if($('.full-height-header-wrapper').length){
-			
 			var $container = $('.full-height-header-wrapper');
 			var container_height = $container.outerHeight(true);
 			var container_width = $container.outerWidth(true);
@@ -15,17 +14,24 @@ ounce_js.resize_homepage_img = (function(){
 			var image_aspect_ratio = image_height/image_width;
 
 			var left_pos;
+			var top_pos;
 
 			// TODO: vertically center image
 
 			if(container_aspect_ratio>image_aspect_ratio){
 				$image.addClass('match-height');
+				image_width = $image.outerWidth(true);
 				left_pos = (container_width-image_width)/2;
 				$image.css('left', left_pos+'px');
+				top_pos = 0;
+				$image.css('top', top_pos+'px');
 			}else{
 				$image.removeClass('match-height');
+				image_height = $image.outerHeight(true);
 				left_pos = 0;
 				$image.css('left', left_pos+'px');
+				top_pos = (container_height-image_height)/2;
+				$image.css('top', top_pos+'px');
 			}
 		}
 	}
