@@ -1,1 +1,122 @@
-contact.html holding page
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Ounce Studios | Booking</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="initial-scale=1.0,width=device-width" />
+	<script src="js/jquery-1.10.2.min.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body class="body-contact">
+
+<div class="page-wrapper" id="top">
+	<div class="header">
+		<img class="header-img" src="img/contact/contact-header-compressed.jpg" alt="">
+		<div class="header-inner-wrapper">
+			<div class="header-inner">
+				<div class="logo">
+					<a href="index.html">
+						<img src="img/logo.png" alt="Ounce Studios">
+					</a>
+				</div>
+				<div class="menu-link hide-for-desktop">
+					<a href="#menu">menu</a>
+				</div>
+				<nav class="navigation">
+					<ul>
+						<li class="first"><a href="studio.html">studio</a></li>
+						<li><a href="rehearsal.html">rehearsal</a></li>
+						<li class=""><a href="booking.html">booking</a></li>
+						<li><a href="gallery.html">gallery</a></li>
+						<li class="last active"><a href="contact.html">contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</div>
+
+	<div class="content">
+		<h1 class="hide-for-desktop page-heading">
+			contact
+		</h1>
+		<section class="top-section">
+			<p class="top-quote">
+				If you have any questions or queries about what we do and how it could benefit your project, small or large please get in touch:
+			</p>
+		</section>
+		<section class="details">
+			<p>
+				<h3>Email:</h3>
+				<a href="mailto:info@ouncestudios.com">info@ouncestudios.com</a>
+			</p>
+			<p>
+				<h3>Tel:</h3>
+				Marisa – <span class="tel">07976819359</span><br/>
+				Tim – <span class="tel">07917284286</span><br/>
+				Alex – <span class="tel">07789343254</span>
+			</p>
+			<p>
+				<h3>We're located at the following address:</h3>
+				Unit 14B<br/>
+				Soho Mills Industrial Estate<br/>
+				Town Lane<br/>
+				Wooburn Green<br/>
+				Bucks<br/>
+				HP100PS
+			</p>
+		</section>
+		<section class="details details-last">
+			<p>
+				<h3>If you're using sat-nav, the postcode won't get you straight outside the door, so please get your bearings from this map:</h3>
+			</p>
+			    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBs9XqpP4RCew2Mg8CmokolQXpVyELsNJU&sensor=false">
+			    </script>
+			<script type="text/javascript">
+				function initialize() {
+
+					var myLatlng = new google.maps.LatLng(51.581143,-0.692269);
+					var mapOptions = {
+						zoom: 16,
+						center: myLatlng,
+						mapTypeId: google.maps.MapTypeId.ROADMAP
+					}
+					var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+					var marker = new google.maps.Marker({
+						position: myLatlng,
+						map: map,
+						title: 'Ounce Studios'
+					});
+					google.maps.event.addListener(marker, 'click', function() {
+						infowindow.open(map,marker);
+					});
+				}
+				google.maps.event.addDomListener(window, 'load', initialize);
+			</script>
+			<div class="map-outer">
+		      	<div class="map-container">
+		        	<div id="map-canvas"/>
+		      	</div>
+			</div>
+		</section>
+	</div><!-- /.content -->
+</div>
+<footer>
+	<div class="footer-inner">
+		<nav id="menu">
+			<ul>
+				<li class="first hide-for-desktop"><a href="#top">top</a></li>
+				<li class=""><a href="index.html">home</a></li>
+				<li><a href="studio.html">studio</a></li>
+				<li class=""><a href="rehearsal.html">rehearsal</a></li>
+				<li class=""><a href="booking.html">booking</a></li>
+				<li><a href="gallery.html">gallery</a></li>
+				<li class="last active"><a href="contact.html">contact</a></li>
+			</ul>
+		</nav>
+		<small>Copyright &copy; 2013 Ounce Studios</small>
+	</div>
+</footer>
+	
+</body>
+</html>

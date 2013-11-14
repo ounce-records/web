@@ -93,4 +93,10 @@
 		margin-left: -1em;
 		padding-top: 1em;
 	}
+	.map-outer{
+		@include featured_image_styling;
+	}
+		// #map-canvas{
+		// 	height: 300px;
+		// }
 }

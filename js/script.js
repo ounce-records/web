@@ -34,6 +34,12 @@ ounce_js.resize_homepage_img = (function(){
 				$image.css('top', top_pos+'px');
 			}
 		}
+		bind_events();
+	}
+	function bind_events(){
+		$('.header-img').load(function() {
+			ounce_js.resize_homepage_img.init();
+		});
 	}
 	return {
 		init: init
@@ -53,12 +59,32 @@ ounce_js.gallery = (function(){
 	
 })();
 
+ounce_js.map_resize = (function(){
+	function init(){
+		resize_map();
+		bind_events();
+	}
+	function resize_map(){
+		console.log('resize_map');
+		var $map = $('#map-canvas');
+		var window_height = $(window).height();
+		$map.height(window_height * 0.5);
+	}
+	function bind_events(){
+		$(window).resize(function() {
+			resize_map();
+		});
+	}
+
+	return{
+		init: init
+	}
+})();
+
 
 $(document).ready(function(){
 	ounce_js.resize_homepage_img.init();
-	$('.header-img').load(function() {
-		ounce_js.resize_homepage_img.init();
-	});
+	ounce_js.map_resize.init();
 });
 
 $(window).resize(function() {
