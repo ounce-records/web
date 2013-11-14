@@ -95,7 +95,7 @@
 			"file": "gallery.html",
 			"settings":
 			{
-				"buffer_size": 3388,
+				"buffer_size": 3444,
 				"line_ending": "Unix"
 			}
 		},
@@ -119,7 +119,7 @@
 			"file": "scss/_typography.scss",
 			"settings":
 			{
-				"buffer_size": 1240,
+				"buffer_size": 1245,
 				"line_ending": "Unix"
 			}
 		},
@@ -135,7 +135,7 @@
 			"file": "scss/_header_layout.scss",
 			"settings":
 			{
-				"buffer_size": 2665,
+				"buffer_size": 2669,
 				"line_ending": "Unix"
 			}
 		},
@@ -529,15 +529,15 @@
 					"file": "gallery.html",
 					"settings":
 					{
-						"buffer_size": 3388,
+						"buffer_size": 3444,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								95,
-								95
+								2719,
+								2719
 							]
 						],
 						"settings":
@@ -742,15 +742,15 @@
 					"file": "scss/_typography.scss",
 					"settings":
 					{
-						"buffer_size": 1240,
+						"buffer_size": 1245,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								675,
-								675
+								896,
+								896
 							]
 						],
 						"settings":
@@ -803,7 +803,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1055.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -884,15 +884,15 @@
 					"file": "scss/_header_layout.scss",
 					"settings":
 					{
-						"buffer_size": 2665,
+						"buffer_size": 2669,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								245,
-								245
+								2014,
+								2014
 							]
 						],
 						"settings":
@@ -945,7 +945,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 80.0,
+						"translation.y": 1523.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -962,8 +962,8 @@
 						"selection":
 						[
 							[
-								95,
-								95
+								331,
+								336
 							]
 						],
 						"settings":
@@ -1033,8 +1033,8 @@
 						"selection":
 						[
 							[
-								955,
-								955
+								867,
+								867
 							]
 						],
 						"settings":
@@ -1087,7 +1087,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 374.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

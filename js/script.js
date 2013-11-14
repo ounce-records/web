@@ -16,6 +16,8 @@ ounce_js.resize_homepage_img = (function(){
 
 			var left_pos;
 
+			// TODO: vertically center image
+
 			if(container_aspect_ratio>image_aspect_ratio){
 				$image.addClass('match-height');
 				left_pos = (container_width-image_width)/2;
