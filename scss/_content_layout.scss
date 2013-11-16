@@ -41,7 +41,9 @@ body.body-booking{
 		float: left;
 		top: 7px;
 			width: 100%;
+			max-width: 240px;
 		@media screen and (min-width: $tablet-min){
+			max-width: 1240px;
 			width: 35%;
 			padding-right: $gutters*1.5;
 		}
