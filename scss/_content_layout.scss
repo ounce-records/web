@@ -8,8 +8,13 @@
 	border-bottom: 3px solid #fff;
 }
 
+body.body-booking{
+	.content{
+		overflow: hidden;
+	}
+}
+
 .content{
-	overflow: hidden;
 	width: 100%;
 	max-width: $max-page-width;
 	margin: 0 auto;
