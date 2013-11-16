@@ -104,14 +104,15 @@ body.body-booking{
 			}
 			&.left{
 					font-size: 1.1em;
-					font-weight: 400;
+					//font-weight: 400;
 				@media screen and (min-width: $tablet-min){
 					font-size: 1em;
 					font-weight: 200;
 				}
 			}
 			&.right{
-				font-style: italic;
+				// font-style: italic;
+				// font-weight: 200;
 			}
 			&.date{
 				select{

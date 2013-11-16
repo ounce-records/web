@@ -109,5 +109,5 @@ ounce_js.map_resize = (function(){
 $(document).ready(function(){
 	ounce_js.resize_homepage_img.init();
 	ounce_js.map_resize.init();
-	ounce_js.parallax.init(700);
+	ounce_js.parallax.init(1024);
 });
