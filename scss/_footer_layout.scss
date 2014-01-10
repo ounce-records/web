@@ -60,3 +60,14 @@ footer{
 		}
 	}
 }
+
+.social{
+	a{
+		list-style-type: none;
+		display: inline-block;
+		margin: 5px;
+		img{
+			width: 32px;
+		}
+	}
+}

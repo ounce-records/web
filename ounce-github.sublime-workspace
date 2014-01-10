@@ -111,7 +111,7 @@
 			"file": "contact.html",
 			"settings":
 			{
-				"buffer_size": 3769,
+				"buffer_size": 4191,
 				"line_ending": "Unix"
 			}
 		},
@@ -500,7 +500,6 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
 				{
@@ -578,15 +577,15 @@
 					"file": "contact.html",
 					"settings":
 					{
-						"buffer_size": 3769,
+						"buffer_size": 4191,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1858,
-								1858
+								0,
+								0
 							]
 						],
 						"settings":
@@ -710,7 +709,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 724.0,
+						"translation.y": 2463.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
